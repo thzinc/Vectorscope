@@ -123,3 +123,15 @@ class ScreenNorm:
         
         if self.tft!=None:
              self.tft.pixel(x,y,color)
+
+
+    def fill_rect(self, x, y, width, height, color):
+        """
+        Method to clear the display with a color.
+
+        Args:
+            color (int): The background color. Default is 0.
+        """
+
+        if self.tft != None:
+            self.tft.fill_rect(x, y, width, height, color)

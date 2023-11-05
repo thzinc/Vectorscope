@@ -64,6 +64,12 @@ def loituma(arg):
     return EXIT
 
 
+def simon(arg):
+    vos_state.show_menu = False
+    vectoros.launch_task("simon")
+    return EXIT
+
+
 # handle slots
 async def abcd(key):
     if vos_state.show_menu:
@@ -111,6 +117,7 @@ async def vos_main():
             mainmenu = [
                 [" ID", id, None],
                 [" Leekspin", loituma, None],
+                [" Simon", simon, None],
                 [" Lissajous", run_lissajous, None],
                 [" Demos", SUBMENU, submenu],
                 [" Sound", toggle_sound, None],

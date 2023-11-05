@@ -9,6 +9,7 @@ launch_list = {
     "lissajous": "lissajous",
     "id": "id",
     "loituma": "loituma",
+    "simon": "simon",
 }
 
 # list what you want to start auto (maybe just one thing?) need tag
