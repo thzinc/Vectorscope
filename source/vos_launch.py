@@ -8,6 +8,7 @@ launch_list = {
     "planets": "planets",
     "lissajous": "lissajous",
     "id": "id",
+    "loituma": "loituma",
 }
 
 # list what you want to start auto (maybe just one thing?) need tag
